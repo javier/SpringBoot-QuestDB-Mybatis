@@ -27,7 +27,7 @@ java -jar target/SpringBoot-QuestDB-0.0.1-SNAPSHOT.jar
 After a few seconds you should see a log line saying:
 
 ```shell
-INFO 37738 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/PostgreSQL'
+INFO 37738 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/QuestDB'
 ```
 
 # Trying out the application

@@ -15,6 +15,11 @@ public class UserController {
 	@Autowired
 	private UserMapper mapper;
 
+	@RequestMapping("/create")
+	public int create() {
+		return mapper.create();
+	}
+
 	@RequestMapping("/select")
 	public List<User> select() {
 		return mapper.getUser();
@@ -30,8 +35,13 @@ public class UserController {
 		return mapper.updateUser(user);
 	}
 
-	@RequestMapping("/delete")
-	public int delete(String name) {
-		return mapper.deleteUser(name);
+	@RequestMapping("/truncate")
+	public int truncate(String name) {
+		return mapper.truncate();
+	}
+
+	@RequestMapping("/drop")
+	public int drop(String name) {
+		return mapper.drop();
 	}
 }

@@ -9,12 +9,16 @@ import com.banmajio.bean.User;
 @Mapper
 public interface UserMapper {
 
+	public int create();
+
 	public List<User> getUser();
 
 	public int insertUser(User user);
 
 	public int updateUser(User user);
 
-	public int deleteUser(String name);
+	public int truncate();
+
+	public int drop();
 
 }

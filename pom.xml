@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.banmajio</groupId>
-	<artifactId>SpringBoot-PostgreSQL</artifactId>
+	<artifactId>SpringBoot-QuestDB</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBoot-PostgreSQL</name>
-	<description>SpringBoot-PostgreSQL</description>
+	<name>SpringBoot-QuestDB</name>
+	<description>SpringBoot-QuestDB</description>
 
 	<properties>
 		<java.version>1.8</java.version>

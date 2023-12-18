@@ -1,6 +1,6 @@
 server:
   servlet:
-    context-path: /PostgreSQL
+    context-path: /QuestDB
   port: 8080
   
 spring:
